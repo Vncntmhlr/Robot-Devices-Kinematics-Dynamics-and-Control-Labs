@@ -1,0 +1,51 @@
+# Submission packages and other generated archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Preserve original archives distributed by the instructor
+!materials/**/*.zip
+!materials/**/*.tar
+!materials/**/*.tar.gz
+!materials/**/*.tgz
+!materials/**/*.7z
+!materials/**/*.rar
+
+# Local submission staging
+submissions/
+
+# MATLAB autosaves and generated code/build files
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+
+# ROS / colcon generated folders
+build/
+install/
+log/
+
+# Editor and operating system files
+.vscode/
+.idea/
+*~
+*.swp
+*.swo
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+.agents/
+.aws/
+.codex/
